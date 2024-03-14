@@ -281,6 +281,10 @@ p {
      .mobile-nav-toggle .icon-close {
       display: none;
      }
+
+     .mobile-nav-toggle .icon-hamburger {
+      display: none;
+     }
  }
 
  /*hero*/
