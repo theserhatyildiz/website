@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzm.Dyt.Serhat Yıldız</title>
+    <link rel="stylesheet" href="ebulten.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <header class="primary-header">
+      <div class="container nav-wrapper">
+        <div>
+          <a href="index.html">
+          <svg class="logo" width="146" height="24">
+            <use xlink:href="images/logo.svg#logo"></use>
+          </svg>
+        </a>
+        </div>
+        <button class="mobile-nav-toggle" aria-controls="primary-nav" aria-expanded="false">
+          <img class="icon-hamburger" src="images/icon-hamburger.svg" alt="" aria-hidden="true">
+          <img class="icon-close" src="images/icon-close.svg" alt="" aria-hidden="true">
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" >
+            <ul aria-label="Primary" role ="list" class="nav__list | nav__list--primary" >
+                <li class="nav__item"><a href="ebulten.html" class="nav__link">E-Bülten</a></li>
+                <li class="nav__item"><a href="antrenman.html" class="nav__link">Antrenman Programı</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Hakkımda</a></li>
+            </ul>
+            <ul role ="list" class="nav__list | nav__list--secondary ">
+                <li class="nav__item"><a href="kitap.html" class="nav__link nav__link--button">Yemek Kitabı</a></li>
+                <li class="nav__item"><a href="onlinekocluk.html" class="nav__link nav__link--button">Koçluk</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+  <section class="hero | padding-block-500 ">
+        <div class="container row | bg-neutral-400">
+            <div class="hero__text | bg-neutral-400 | flow "  >
+                <h1 class="fs-primary-heading | fw-bold ">Sağlık ve Yüksek Performans Kulübüne Ücretsiz Abone Ol</h1>
+                <p>En iyi vücut formunuza ulaşabilmek için her hafta düzenli olarak kilo verme, 
+                  kas kütlesini arttırma, 
+                  uzun ve sağlıklı yaşam ile ilgili email'ler almak istiyorsanız aşağıdaki butona tıklayarak bu email'leri alan 2500'den fazla kişiye siz de katılabilirsiniz.</p>
+                <!-- <iframe src="https://uzmdytserhatyildiz.substack.com/embed" width="480" height="320" style="border:1px solid black; background:hsl(240, 8%, 80%);" frameborder="0" scrolling="no" class="substack-iframe"></iframe> -->
+                <div class="substack">
+                <div id="custom-substack-embed"></div>
+                    <script>
+                      window.CustomSubstackWidget = {
+                        substackUrl: "uzmdytserhatyildiz.substack.com",
+                        placeholder: "email adresini girin",
+                        buttonText: "abone ol",
+                        theme: "custom",
+                        colors: {
+                          primary: "#CE364D",
+                          input: "#000000",
+                          email: "#f7f7f8",
+                          text: "#FFFFFF",
+                        },
+                      };
+                    </script>
+                    <script src="https://substackapi.com/widget.js" async></script>
+              </div>
+            </div>
+        </div>
+  </section> 
+
+<footer class="padding-block-200">
+      <div class="container | padding-block-200">
+        <div >
+          <svg class="logo | logo-footer " width="146" height="24">
+            <use xlink:href="images/logo.svg#logo"></use>
+          </svg>
+            <nav class="footer-nav | padding-block-100">
+              <ul aria-label="Footer" role ="list" class="nav__list | nav__list--footer">
+                <li class="nav__item"><a href="https://www.instagram.com/srhtyldz/" class="nav__link">Instagram</a></li>
+                <li class="nav__item"><a href="https://x.com/dytserhatyildiz" class="nav__link">X</a></li>
+                <li class="nav__item"><a href="https://www.youtube.com/channel/UCSgp93hMWbIf3f8zUN63m5g" class="nav__link">Youtube</a></li>
+                <li class="nav__item"><a href="https://tr.pinterest.com/dytserhatyildiz/" class="nav__link">Pinterest</a></li>
+            </ul>
+            </nav> 
+        </div>
+        
+      </div>
+      <span>Copyright 2024 Created By TEN10. AIl Rights Reserved.</span>
+</footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
