@@ -277,6 +277,10 @@ p {
      .mobile-nav-toggle[aria-expanded="true"] {
       background-image: url('images/icon-close.svg');
      }
+
+     .mobile-nav-toggle .icon-close {
+      display: none;
+     }
  }
 
  /*hero*/
