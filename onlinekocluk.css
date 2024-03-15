@@ -234,8 +234,8 @@
         display: none;
   
         position: absolute;
-        padding: var(--size-700); 
-        inset: var(--size-900) var(--size-400) auto; /* inset mean top bottom left&right*/
+        padding: var(--size-600); 
+        inset: var(--size-800) var(--size-400) auto; /* inset mean top bottom left&right*/
         background: var(--clr-neutral-400);
         box-shadow: 0 1em 1em -0.25em rgb(0, 0, 0, 0.125);
       }
@@ -267,6 +267,7 @@
         padding: 0.5em;
         width: 1.2rem;
         aspect-ratio: 1;
+        transition: 0.5s;
   
         background-image: url('images/icon-hamburger.svg');
         background-size: contain;
